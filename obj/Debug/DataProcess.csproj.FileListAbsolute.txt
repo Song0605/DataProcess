@@ -1,7 +1,0 @@
-D:\0_Code\DataProcess\bin\Debug\DataProcess.exe.config
-D:\0_Code\DataProcess\bin\Debug\DataProcess.exe
-D:\0_Code\DataProcess\bin\Debug\DataProcess.pdb
-D:\0_Code\DataProcess\obj\Debug\DataProcess.csproj.AssemblyReference.cache
-D:\0_Code\DataProcess\obj\Debug\DataProcess.csproj.CoreCompileInputs.cache
-D:\0_Code\DataProcess\obj\Debug\DataProcess.exe
-D:\0_Code\DataProcess\obj\Debug\DataProcess.pdb
