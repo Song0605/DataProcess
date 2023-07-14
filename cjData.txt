@@ -1,0 +1,15 @@
+﻿apiName:worker_positioning/upload
+methodName:WorkerPositioning
+methodDescription:工人定位
+
+"ProjectId":"objectId",//所在项目Id
+    "BuildingId":"objectId",//建筑实体Id
+    "TagID":"int",//定位芯片ID
+    "LocationX":"double",//定位坐标X轴
+    "LocationY":"double",//定位坐标Y轴
+    "LocationZ":"double",//定位坐标Z轴
+    "Electric":"int",//剩余电量
+    "SerialNum":"int",//编号
+    "UserId":"objectId",//人员ID
+    "RecordTime":"/date/",//当前时间
+    "MapId":"int"//定位区域编号
