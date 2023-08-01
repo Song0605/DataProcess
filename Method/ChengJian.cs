@@ -12,6 +12,9 @@ namespace DataProcess.Method
     /// </summary>
     public static class Chengjian
     {
+        public static string CurrentDirectoryPath = Environment.CurrentDirectory;
+        //public static string OriginFilePath = Path.Combine(CurrentDirectoryPath, "cjData.txt");
+
         public static string DesktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         public static string OriginFilePath = Path.Combine(DesktopPath, "cjData.txt");
         public static string OutputFilePath = Path.Combine(DesktopPath, "outputData.txt");
@@ -59,6 +62,8 @@ namespace DataProcess.Method
                     while ((line = sr.ReadLine()) != null)
                     {
                         if (string.IsNullOrWhiteSpace(line)) continue;
+                        if (!line.Contains("\",//") && line.Contains("\"//"))
+                            line = line.Replace("\"//", "\",//");
                         var strList = new List<string>();
                         var array1 = line.Trim().Split(':');
                         strList.Add(array1[0].Replace('"', ' ').Trim());
