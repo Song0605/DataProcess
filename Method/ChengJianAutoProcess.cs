@@ -10,7 +10,7 @@ namespace DataProcess.Method
     /// <summary>
     /// 处理城建接口
     /// </summary>
-    public static class Chengjian
+    public static class ChengJianAutoProcess
     {
         public static string CurrentDirectoryPath = Environment.CurrentDirectory;
         //public static string OriginFilePath = Path.Combine(CurrentDirectoryPath, "cjData.txt");

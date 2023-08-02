@@ -12,8 +12,10 @@ namespace DataProcess
     {
         static void Main(string[] args)
         {
-            Chengjian.DealData();
-
+            //ChengJianAutoProcess.DealData();
+            //FolderProcess.ReplaceFileNames();
+            //FolderProcess.GetFileNames();
+            FormatConverter.ExcelToPdf();
             //Console.ReadKey();
         }
     }
