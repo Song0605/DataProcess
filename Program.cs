@@ -15,7 +15,9 @@ namespace DataProcess
             //ChengJianAutoProcess.DealData();
             //FolderProcess.ReplaceFileNames();
             //FolderProcess.GetFileNames();
-            FormatConverter.ExcelToPdf();
+            //FormatConverter.ExcelToPdf();
+            TimeConverter.TimeStampToDateTime();
+
             //Console.ReadKey();
         }
     }

@@ -46,9 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Method\ChengJian.cs" />
-    <Compile Include="Method\DealFolder.cs" />
+    <Compile Include="Method\ChengJianAutoProcess.cs" />
+    <Compile Include="Method\FolderProcess.cs" />
     <Compile Include="Method\FormatConverter.cs" />
+    <Compile Include="Method\TimeConverter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
